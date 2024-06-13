@@ -1,0 +1,23 @@
+﻿Code first approach in Asp.Net Core Web Api
+
+-Create Asp.Net Core Web Api
+-In Options 
+	Authentication Type: none
+	Enable OpenAPI support: true
+	Use controllers: true
+
+- Install Nuget Packages
+	- Microsoft.EntityFrameworkCore.Core
+	- Microsoft.EntityFrameworkCore.Tools
+	- Microsoft.EntityFrameworkCore.Design
+	- Microsoft.EntityFrameworkCore.SqlServer
+	
+- Create data folder
+- Create AppDbContext
+- Create Db table (city) class with properties
+- Program.cs
+	- AddDbContext with connection string
+
+Package Manager Console
+- Add-Migration InitDB (any name)
+-Update-Database
